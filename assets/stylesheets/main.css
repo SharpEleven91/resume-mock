@@ -154,3 +154,26 @@ table {
 #html {
   padding-right:77px;
 }
+
+.hobbies {
+  float: left;
+  padding-left: 45px;
+}
+
+.hobbyText {
+  display: inline-block;
+  font-family: 'Raleway';
+  font-weight: 600;
+}
+
+#traveling {
+  padding-left: 55px; 
+}
+
+#photography{
+  padding-left: 33px; 
+}
+
+#videogames {
+  padding-left: 27px;
+}
