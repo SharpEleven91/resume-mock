@@ -2,48 +2,113 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Raleway:300,400,600,700" rel="stylesheet">
-	<title>Resume</title>
+	<title>RESUME</title>
 </head>
 <header>
-	<nav class="navbar">
+		<div class="container-fluid header">
 		<ul>
-			<li class="navigation">HELLO</li>
-			<li class="navigation active-page">RESUME</li>
-			<li class="navigation">PORTFOLIO</li>
+			<li>HELLO</li>
+			<li class="active-page">RESUME</li>
+			<li>PORTFOLIO</li>
 		</ul>
-	</nav>
+		</div>
 </header>
 <body>
-	<div class="grid intro bottom-shadow">
-		<div class="col-2-4 nameTitle">
+	<div class="container-fluid introduction bottom-shadow">
+		<div class="row">
+			<div class="col-md-8">
 			<h1>David Merchant</h1>
 			<h3>Engineer</h3>
-		</div>
-		<div class="col-2-4 imgCol">
-			<img class ="profileImg" src="assets/images/profile.jpg">
+			</div>
+			<div class="col-md-4">
+				<img class="profile" src="assets/images/profile.jpg">
+			</div>
 		</div>
 	</div>
 
-	<div class="container statement bottom-shadow">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet, eros a interdum imperdiet, nulla sem congue lacus, a faucibus felis tellus sed orci. Vivamus consequat quam lectus, id feugiat libero porta ac. Praesent nec velit molestie, commodo tellus at, feugiat velit. Suspendisse pellentesque ac elit eu sodales. Fusce imperdiet, quam vel pretium dictum, enim dui condimentum augue, ac porttitor felis massa ac quam. Fusce ullamcorper est vitae lacus aliquam.</p>
+	<!-- Statement -->
+	<div class="container-fluid statement bottom-shadow">
+	<p>Vivamus congue neque et nunc euismod sollicitudin. Mauris porta mi odio, et accumsan leo ultricies non. Cras massa libero, ornare id consequat ac, placerat id ex. Ut porta urna sapien, vel congue dui interdum et. Cras feugiat, nisi vitae condimentum egestas, ante ante ornare arcu, at dapibus est nisl eget lacus. Praesent laoreet odio id ante convallis, a pharetra quam semper.</p>
 	</div>
 
-	<div class="container main">
-		<div class="personal col-1-3">
-		<h3 class="personalHeaders">Personal</h3>
-		<table>
-			<tr class="rowBorder">
-			<td class="personalText">Name</td>
-			<td class="answers">David Merchant</td>
-			</tr>
-			<tr>
-			<td class="personalText">Birthday</td>
-			<td class="answers">12th Dec 1992(24)</td>
-			</tr>
+
+
+
+
+	<!--- Main -->
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="col-md-4 right-shadow ">
+				<h3 class="headerText personal">Personal</h3>
+				<table>
+					<tr class="rowBorder">
+					<td class="question">Name</td>
+					<td class="answer">David Merchant</td>
+					</tr>
+					<tr class="rowBorder">
+					<td class="question">Birthday</td>
+					<td class="answer">12th Dec 1992(24)</td>
+					</tr>
+					<tr class="rowBorder">
+					<td class="question">Relationship</td>
+					<td class="answer">Married</td>
+					<tr class="rowBorder">
+					<td class="question">Nationality</td>
+					<td class="answer">US Citizen</td>
+					</tr>
+					<tr class="rowBorder">
+					<td class="question">Languages</td>
+					<td class="answer">English, German, Spanish</td>
+					</tr>
+					<tr class="rowBorder">
+					<td class="question">Telephone</td>
+					<td class="answer">+1 (555) 555-5555</td>
+					</tr>
+				</table>
+
+				<h3 class="headerText personal">Software</h3>
+					<p class="software">Photoshop CC</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-value="85" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+						<span class="sr-only"></span>
+						</div>
+				
+					</div>
+
+					<p id="illustrator" class="software">Illustrator CC</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-value="85" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+						<span class="sr-only"></span>
+						</div>
+				
+					</div>
+
+					<p id="html" class="software">HTML</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-value="85" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+						<span class="sr-only"></span>
+						</div>
+				
+					</div>
+
+					<p id="css" class="software">CSS</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-value="85" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+						<span class="sr-only"></span>
+						</div>
+				
+					</div>
+
+					<h3 class="headerText personal">Hobbies</h3>
+
+			</div>
+
+			<div class="col-md-8">
+				<h3 class="headerText"> Work </h3>
+			</div>
 		</div>
-		<div class="professional col-2-3">
-		</div>
-	</div>
 </body>
 </html>
