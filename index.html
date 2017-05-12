@@ -2,17 +2,48 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Raleway:300,400,600,700" rel="stylesheet">
 	<title>Resume</title>
 </head>
 <header>
-	<nav>
+	<nav class="navbar">
 		<ul>
-			<li>HELLO</li>
-			<li>RESUME</li>
-			<li>PORTFOLIO</li>
+			<li class="navigation">HELLO</li>
+			<li class="navigation active-page">RESUME</li>
+			<li class="navigation">PORTFOLIO</li>
+		</ul>
 	</nav>
 </header>
 <body>
+	<div class="grid intro bottom-shadow">
+		<div class="col-2-4 nameTitle">
+			<h1>David Merchant</h1>
+			<h3>Engineer</h3>
+		</div>
+		<div class="col-2-4 imgCol">
+			<img class ="profileImg" src="assets/images/profile.jpg">
+		</div>
+	</div>
 
+	<div class="container statement bottom-shadow">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet, eros a interdum imperdiet, nulla sem congue lacus, a faucibus felis tellus sed orci. Vivamus consequat quam lectus, id feugiat libero porta ac. Praesent nec velit molestie, commodo tellus at, feugiat velit. Suspendisse pellentesque ac elit eu sodales. Fusce imperdiet, quam vel pretium dictum, enim dui condimentum augue, ac porttitor felis massa ac quam. Fusce ullamcorper est vitae lacus aliquam.</p>
+	</div>
+
+	<div class="container main">
+		<div class="personal col-1-3">
+		<h3 class="personalHeaders">Personal</h3>
+		<table>
+			<tr class="rowBorder">
+			<td class="personalText">Name</td>
+			<td class="answers">David Merchant</td>
+			</tr>
+			<tr>
+			<td class="personalText">Birthday</td>
+			<td class="answers">12th Dec 1992(24)</td>
+			</tr>
+		</div>
+		<div class="professional col-2-3">
+		</div>
+	</div>
 </body>
 </html>
