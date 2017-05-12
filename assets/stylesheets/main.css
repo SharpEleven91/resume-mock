@@ -205,3 +205,17 @@ table {
 #twitter {
   padding-left: 260px;
 }
+
+.contact { 
+  background-color: #005b9f;
+  height: 50px;
+ }
+
+ .address {
+  color: white;
+  padding: 15px 0 10px 140px;
+ }
+
+ .website {
+  float: left;
+ }
