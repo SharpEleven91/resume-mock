@@ -164,6 +164,7 @@ table {
   display: inline-block;
   font-family: 'Raleway';
   font-weight: 600;
+  padding-bottom: 25px;
 }
 
 #traveling {
@@ -176,4 +177,31 @@ table {
 
 #videogames {
   padding-left: 27px;
+}
+
+/* ==== Footer ==== */
+
+.socialMedia {
+  background-color: #0277bd;
+  width: 100%;
+}
+
+.smedia {
+  color: white;
+  display: inline-block;
+  padding: 25px 0 25px 250px;
+}
+
+.mediaLinks {
+  display: inline-block;
+  color: #fff;
+  padding-left: 265px;
+}
+
+#linkedin {
+  padding-left: 240px;
+}
+
+#twitter {
+  padding-left: 260px;
 }
