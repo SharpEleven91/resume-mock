@@ -158,6 +158,7 @@ table {
 .hobbies {
   float: left;
   padding-left: 45px;
+  font-size: 4vw;
 }
 
 .hobbyText {
@@ -165,6 +166,7 @@ table {
   font-family: 'Raleway';
   font-weight: 600;
   padding-bottom: 25px;
+  font-size: 1vw;
 }
 
 #traveling {
@@ -172,11 +174,11 @@ table {
 }
 
 #photography{
-  padding-left: 33px; 
+  padding-left: 20px; 
 }
 
 #videogames {
-  padding-left: 27px;
+  padding-left: 20px;
 }
 
 /* ==== Footer ==== */
@@ -189,33 +191,117 @@ table {
 .smedia {
   color: white;
   display: inline-block;
-  padding: 25px 0 25px 250px;
+  margin-left: 60px;
+  padding: 25px 0 25px 0;
+  text-align: center;
+  font-size: 5vw;
 }
 
-.mediaLinks {
-  display: inline-block;
-  color: #fff;
-  padding-left: 265px;
+span {
+  text-align: center;
 }
 
-#linkedin {
-  padding-left: 240px;
-}
 
-#twitter {
-  padding-left: 260px;
-}
+
 
 .contact { 
   background-color: #005b9f;
   height: 50px;
+  text-align: center;
  }
-
  .address {
   color: white;
-  padding: 15px 0 10px 140px;
+  
+  text-align: center;
  }
 
  .website {
   float: left;
  }
+
+ .jobTitle {
+  font-weight: 700;
+  padding-left: 125px;
+  font-family: 'Raleway';
+ }
+.year {
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+
+.jobDescription {
+  font-family: 'Raleway';
+  padding-left: 125px;
+}
+.jobs hr {
+  margin-left: 125px;
+}
+
+.professionalSkills {
+  padding: 25px 0 50px 0;
+}
+
+.circle-container {
+  width: 110px;
+  height: 110px;
+  padding-left: 100px;
+  float: left;
+}
+
+.prec {
+  top: 40px;
+  position: relative;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Raleway';
+}
+
+.circle {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.circle-border-design {
+  position: relative;
+  text-align: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  background-color: #0277bd;
+
+    background-image:
+        linear-gradient(270deg, transparent 50%, #0277bd 50%),
+        linear-gradient(90deg, #eceff1 50%, transparent 50%);
+}
+
+.circle-border-concepts {
+  position: relative;
+  text-align: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  background-color: #0277bd;
+
+    background-image:
+        linear-gradient(220deg, transparent 50%, #0277bd 50%),
+        linear-gradient(90deg, #eceff1 50%, transparent 50%);
+}
+
+.circle-border-team {
+  position: relative;
+  text-align: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  background-color: #0277bd;
+
+    background-image:
+        linear-gradient(190deg, transparent 50%, #0277bd 50%),
+        linear-gradient(90deg, #eceff1 50%, transparent 50%);
+}
